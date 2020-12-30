@@ -102,6 +102,8 @@ backend webcam
         reqrep ^([^\ :]*)\ /webcam/(.*)     \1\ /\2
         server webcam1  127.0.0.1:8080
 ```
+
+```
 sudo nano /etc/default/haproxy
  ENABLED 1
 sudo service haproxy start
@@ -111,9 +113,17 @@ sudo service haproxy start
 sudo nano ~/.octoprint/config.yaml
 server:
     host: 127.0.0.1
+```
+
 
 ```
-        
+sudo nano /etc/sudoers.d/octoprint-shutdown
+  wouter ALL=NOPASSWD: /sbin/shutdown
+```
 
+
+```
+sudo reboot now
+```
 Tweaks:
  - 
