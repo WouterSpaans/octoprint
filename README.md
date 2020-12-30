@@ -1,4 +1,4 @@
-# Install Octoprint on Debian
+# Install Octoprint on Ubuntu
 
 Hardware:
  - Intel NUC 10 Performance NUC10i3FNK (https://tweakers.net/pricewatch/1508342/intel-nuc-10-performance-nuc10i3fnk.html)
